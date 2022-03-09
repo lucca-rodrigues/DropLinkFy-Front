@@ -1,0 +1,10 @@
+.section_benefits_list_item{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.section_benefits_list_item_icon{
+  margin-right: 10px;
+  color:#5D92FF
+}

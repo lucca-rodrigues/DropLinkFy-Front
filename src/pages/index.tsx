@@ -1,10 +1,9 @@
 import type { NextPage } from "next";
 import styles from "../styles/Home.module.css";
 import { Button, Grid, Typography } from "@mui/material";
-import { Logo } from "assets";
 import { Box } from "@mui/system";
 import benefits from "mocks/benefits.json";
-import { FaCheckCircle } from "react-icons/fa";
+import { Benefits } from "components/benefits";
 
 const Home: NextPage = () => {
   const benefitsData = benefits[0]?.data;
@@ -37,29 +36,7 @@ const Home: NextPage = () => {
           QUERO LUCRAR MAIS
         </Button>
       </Grid>
-      <Grid container className="section_benefits">
-        <Grid item lg={6} md={12}></Grid>
-        <Grid item lg={6} md={12}>
-          <ul className="section_benefits_list">
-            {benefitsData?.map((item) => (
-              <li key={item?.id} className={styles.section_benefits_list_item}>
-                <>
-                  <FaCheckCircle
-                    className={styles.section_benefits_list_item_icon}
-                    size={30}
-                  />
-                  <Typography
-                    color="red"
-                    className={styles.section_benefits_list_item_title}
-                  >
-                    {item?.description}
-                  </Typography>
-                </>
-              </li>
-            ))}
-          </ul>
-        </Grid>
-      </Grid>
+      <Benefits benefitsData={benefitsData} />
     </Grid>
   );
 };
