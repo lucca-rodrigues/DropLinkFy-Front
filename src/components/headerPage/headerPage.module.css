@@ -8,7 +8,7 @@
   max-width:65%;
   margin: 0 auto;
 }
-.header_content{
+.header_content, .header_video{
   display: flex;
   max-width:70%;
   margin: 0 auto;
@@ -23,4 +23,31 @@
   font-size: 30px;
   color: #000;
   font-weight: 100;
+}
+
+.titleBlack{
+  color: #000;
+  font-weight: 300;
+  font-size: 45px;
+  font-family: dosis;
+
+
+}
+.titleBlue{
+  color: #0D82FF;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: dosis;
+}
+
+.header_video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_video_title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -39,9 +39,17 @@ function Header() {
           <ButtonPrimary title="QUERO LUCRAR MAIS" width={400} />
         </Grid>
       </Grid>
-      <Grid container className={styles.header_benefits}>
-        <Grid item lg={6} md={12}>
-          video
+      <Grid container className={styles.header_video} pt={10}>
+        <Grid item lg={12} md={12}>
+          <Box className={styles.header_video_title}>
+            <Typography variant="span" className={styles.titleBlack} mr={1}>
+              Assista o vídeo até o final e veja
+            </Typography>
+            <Typography variant="span" className={styles.titleBlue}>
+              Como Funciona
+            </Typography>
+          </Box>
+          video aqui
         </Grid>
       </Grid>
     </Grid>
