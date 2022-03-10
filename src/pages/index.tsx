@@ -6,7 +6,6 @@ import benefits from "mocks/benefits.json";
 import { Benefits } from "components/benefits";
 
 const Home: NextPage = () => {
-  const benefitsData = benefits[0]?.data;
   return (
     <Grid container pt={5}>
       <Grid item lg={4} md={12}>
@@ -36,7 +35,10 @@ const Home: NextPage = () => {
           QUERO LUCRAR MAIS
         </Button>
       </Grid>
-      <Benefits benefitsData={benefitsData} />
+      <Benefits
+        benefitsData={benefits?.data}
+        observationData={benefits?.observation}
+      />
     </Grid>
   );
 };

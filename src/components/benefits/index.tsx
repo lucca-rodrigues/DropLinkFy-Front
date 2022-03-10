@@ -7,14 +7,15 @@ interface IBenefitsProps {
   id: number;
   description: string;
   benefitsData: object[];
+  observationData: string;
 }
 
-function Benefits({ benefitsData }: IBenefitsProps) {
+function Benefits({ benefitsData, observationData }: IBenefitsProps) {
   return (
-    <Grid container className="section_benefits">
+    <Grid container className={styles.section_benefits}>
       <Grid item lg={6} md={12}></Grid>
-      <Grid item lg={6} md={12}>
-        <ul className="section_benefits_list">
+      <Grid item lg={5} md={12}>
+        <ul className={styles.section_benefits_list}>
           {benefitsData?.map((item: any) => (
             <li key={item?.id} className={styles.section_benefits_list_item}>
               <>
@@ -32,6 +33,12 @@ function Benefits({ benefitsData }: IBenefitsProps) {
             </li>
           ))}
         </ul>
+        <Typography
+          color="red"
+          className={styles.section_benefits_list_item_title}
+        >
+          {observationData}
+        </Typography>
       </Grid>
     </Grid>
   );

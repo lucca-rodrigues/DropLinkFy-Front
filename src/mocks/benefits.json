@@ -1,31 +1,29 @@
-[
-  {
-    "data": [
-      {
-        "id": 1,
-        "description": "Suporte no e-mail e whatsapp para dúvidas"
-      },
-      {
-        "id": 2,
-        "description": "Economize muito mais com o seu processamento de pedidos."
-      },
-      {
-        "id": 3,
-        "description": "Processamento automático no shopify c/ código de rastreio"
-      },
-      {
-        "id": 4,
-        "description": "Pedidos ilimitados"
-      },
-      {
-        "id": 5,
-        "description": "Integração com Shopify"
-      },
-      {
-        "id": 6,
-        "description": "Pedidos de origem nacional e internacional"
-      }
-    ],
-    "observation": "Necessário possuir proxy e números de telefone para fazer a criação de contas para o processamento de pedidos. Ferramenta possui tutoriais de instalação e indicações de fornecedores de proxy, números e e-mails."
-  }
-]
+{
+  "data": [
+    {
+      "id": 1,
+      "description": "Suporte no e-mail e whatsapp para dúvidas"
+    },
+    {
+      "id": 2,
+      "description": "Economize muito mais com o seu processamento de pedidos."
+    },
+    {
+      "id": 3,
+      "description": "Processamento automático no shopify c/ código de rastreio"
+    },
+    {
+      "id": 4,
+      "description": "Pedidos ilimitados"
+    },
+    {
+      "id": 5,
+      "description": "Integração com Shopify"
+    },
+    {
+      "id": 6,
+      "description": "Pedidos de origem nacional e internacional"
+    }
+  ],
+  "observation": "Necessário possuir proxy e números de telefone para fazer a criação de contas para o processamento de pedidos. Ferramenta possui tutoriais de instalação e indicações de fornecedores de proxy, números e e-mails."
+}

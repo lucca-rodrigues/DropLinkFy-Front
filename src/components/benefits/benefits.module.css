@@ -1,10 +1,22 @@
+.section_benefits{
+  background-image: url("../../assets/bg_bottom.jpg");
+  background-position: top;
+}
+
 .section_benefits_list_item{
   display: flex;
   justify-content: left;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .section_benefits_list_item_icon{
   margin-right: 10px;
   color:#5D92FF
+}
+
+.section_benefits_list_item_title{
+  font-size: 27px;
+  color: #000;
+  font-weight: 100;
 }
