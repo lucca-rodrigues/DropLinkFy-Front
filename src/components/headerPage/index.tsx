@@ -1,8 +1,9 @@
 import { Button, Grid, Typography, Box } from "@mui/material";
+import styles from "./headerPage.module.css";
 
 function Header() {
   return (
-    <Grid container lg={12}>
+    <Grid container className={styles.header}>
       <Grid item lg={4} md={12}>
         Dúvidas fale conosco
       </Grid>
