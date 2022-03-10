@@ -1,0 +1,14 @@
+.button{
+  border-radius: 20px;
+  background-color: #EABD4B;
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  -ms-border-radius: 20;
+  -o-border-radius: 20;
+}
+
+.button:hover{
+  opacity: 0.9;
+  background-color: #EABD4B;
+
+}

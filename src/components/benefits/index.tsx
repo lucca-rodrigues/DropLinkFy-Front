@@ -1,4 +1,5 @@
 import { Grid, Typography } from "@mui/material";
+import { ButtonPrimary } from "components/buttonPrimary";
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 import styles from "./benefits.module.css";
@@ -14,7 +15,7 @@ interface IBenefitsProps {
 
 function Benefits({ benefitsData, observationData }: IBenefitsProps) {
   return (
-    <Grid container className={styles.section_benefits}>
+    <Grid container className={styles.section_benefits} pb={5}>
       <Grid item lg={6} md={12}></Grid>
       <Grid item lg={5} md={12}>
         <ul className={styles.section_benefits_list}>
@@ -36,11 +37,12 @@ function Benefits({ benefitsData, observationData }: IBenefitsProps) {
           ))}
         </ul>
         <Typography
-          color="red"
-          className={styles.section_benefits_list_item_title}
+          className={styles.section_benefits_list_item_observation}
+          mb={3}
         >
-          {observationData}
+          Obs: {observationData}
         </Typography>
+        <ButtonPrimary title="QUERO AUMENTAR MEU FATURAMENTO" />
       </Grid>
     </Grid>
   );
