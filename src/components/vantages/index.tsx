@@ -26,18 +26,23 @@ function Vantages() {
           </Typography>
         </Box>
       </Grid>
-      <Grid container spacing={2} className={styles.vantages_section_list}>
-        <Grid
-          item
-          lg={12}
-          md={12}
-          sm={12}
-          className={styles.vantages_section_list_item}
-        >
-          <Box>
-            <Image src={IconOne} alt="icon.1" />
-          </Box>
-        </Grid>
+      <Grid
+        item
+        lg={12}
+        md={12}
+        sm={12}
+        className={styles.vantages_section_list_item}
+      >
+        <Box>
+          <Image src={IconOne} alt="icon.1" />
+        </Box>
+      </Grid>
+      <Grid
+        container
+        spacing={2}
+        className={styles.vantages_section_list}
+        pt={5}
+      >
         <Grid
           item
           lg={6}

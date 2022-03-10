@@ -45,3 +45,17 @@
   align-items: center;
   justify-content: center;
 }
+
+
+
+@media(max-width: 768px){
+  .header_menu{
+    display: none;
+  }
+  .header_content, .header_video{
+    width: 100%!important;
+  }
+  .header_video_title{
+    display: block!important;
+  }
+}

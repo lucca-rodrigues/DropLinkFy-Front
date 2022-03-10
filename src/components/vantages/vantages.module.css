@@ -1,7 +1,8 @@
 .vantages_section {
+
     display: flex;
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 80%;
 }
 
 .vantages_section_title{
@@ -9,6 +10,13 @@
     justify-content: center;
 }
 
+.vantages_section_list{
+    background-image: url("../../../public/images/bg-vantages.png");
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: inherit;
+}
 .vantages_section_list_item{
     display: flex;
     justify-content: center;
@@ -27,4 +35,5 @@
     border-radius: 100%;
     background: #fff;
     box-shadow: 3px 5px 16px -11px #00000042;
+    margin-top: 50px;
 }

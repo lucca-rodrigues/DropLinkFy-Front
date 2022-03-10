@@ -17,3 +17,21 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+@media(max-width: 768px){
+  .header_menu{
+    width: 100%!important;
+    padding: 10px;
+  }
+  .header_content, .header_video{
+    width: 100%!important;
+  }
+  .headerPage_header_video_title, .headerPage_header{
+    display: block!important;
+  }
+  .vantages_section_list{
+    background-image: none!important;
+    background-color: #eafcff!important;
+  }
+}

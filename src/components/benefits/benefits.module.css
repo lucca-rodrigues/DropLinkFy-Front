@@ -31,6 +31,25 @@
   justify-content: center;
   align-items: center;
   margin-top: 40px;
-  max-width:70%;
+  max-width:60%;
   margin: 0 auto;
+}
+
+@media(max-width: 768px){
+  .section_benefits{
+    background-image:none!important;
+    background-color: #04b7fe6c;
+  }
+  .section_benefits_list_item_observation{
+    padding: 30px;
+  }
+  .section_beneficts_footer{
+    max-width: 90%!important;
+    display: block!important;
+  }
+
+  .section_benefits button{
+    display: flex;
+    margin: 0 auto;
+  }
 }
