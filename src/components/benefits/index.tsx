@@ -15,7 +15,7 @@ interface IBenefitsProps {
 
 function Benefits({ benefitsData, observationData }: IBenefitsProps) {
   return (
-    <Grid container className={styles.section_benefits} pb={5}>
+    <Grid container className={styles.section_benefits} pb={2}>
       <Grid item lg={6} md={12}></Grid>
       <Grid item lg={5} md={12}>
         <ul className={styles.section_benefits_list}>
@@ -43,6 +43,22 @@ function Benefits({ benefitsData, observationData }: IBenefitsProps) {
           Obs: {observationData}
         </Typography>
         <ButtonPrimary title="QUERO AUMENTAR MEU FATURAMENTO" />
+      </Grid>
+
+      <Grid container className={styles.section_beneficts_footer} pt={5}>
+        <Grid item lg={4} md={4} sm={12}>
+          <Typography variant="body1">Copyright © Droplinkfy 2022</Typography>
+        </Grid>
+        <Grid item lg={4} md={4} sm={12}>
+          <Typography variant="body1">
+            E-mail: suporte@droplinkfy.com
+          </Typography>
+        </Grid>
+        <Grid item lg={4} md={4} sm={12}>
+          <Typography variant="body1">
+            *Não somos responsáveis pelos bloqueios de contas dos usuários
+          </Typography>
+        </Grid>
       </Grid>
     </Grid>
   );

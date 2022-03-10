@@ -25,3 +25,12 @@
   font-size: 18px;
   font-weight: 300;
 }
+
+.section_beneficts_footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  max-width:70%;
+  margin: 0 auto;
+}
