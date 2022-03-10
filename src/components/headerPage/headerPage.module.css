@@ -1,6 +1,7 @@
 .header{
   background-image: url("../../../public/images/bg_top.jpg");
   background-position: top;
+  background-repeat: no-repeat;
 }
 
 .header_menu{
@@ -25,20 +26,7 @@
   font-weight: 100;
 }
 
-.titleBlack{
-  color: #000;
-  font-weight: 300;
-  font-size: 45px;
-  font-family: dosis;
 
-
-}
-.titleBlue{
-  color: #0D82FF;
-  font-size: 45px;
-  font-weight: 700;
-  font-family: dosis;
-}
 
 .header_video{
   display: flex;
@@ -47,6 +35,12 @@
 }
 
 .header_video_title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_video_box{
   display: flex;
   align-items: center;
   justify-content: center;

@@ -1,10 +1,13 @@
 import { Grid, Typography, Box } from "@mui/material";
+import Image from "next/image";
 import { ButtonPrimary } from "components/buttonPrimary";
 import { ButtonSecondary } from "components/buttonSecondary";
-import Image from "next/image";
-// import Logo from "assets/logo.png";
+
+import videoImg from "../../../public/images/video.png";
 import logo from "../../../public/images/logo.png";
+
 import styles from "./headerPage.module.css";
+import globalStyles from "../../styles/globals.module.css";
 
 function Header() {
   return (
@@ -44,16 +47,22 @@ function Header() {
         </Grid>
       </Grid>
       <Grid container className={styles.header_video} pt={10}>
-        <Grid item lg={12} md={12}>
+        <Grid item lg={12} md={12} justifyContent="center">
           <Box className={styles.header_video_title}>
-            <Typography variant="body1" className={styles.titleBlack} mr={1}>
+            <Typography
+              variant="body1"
+              className={globalStyles.titleBlack}
+              mr={1}
+            >
               Assista o vídeo até o final e veja
             </Typography>
-            <Typography variant="body1" className={styles.titleBlue}>
+            <Typography variant="body1" className={globalStyles.titleBlue}>
               Como Funciona
             </Typography>
           </Box>
-          video aqui
+          <Box className={styles.header_video_box}>
+            <Image src={videoImg} alt="logo.dropfy" />
+          </Box>
         </Grid>
       </Grid>
     </Grid>

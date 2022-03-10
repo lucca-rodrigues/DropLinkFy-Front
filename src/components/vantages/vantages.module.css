@@ -1,0 +1,30 @@
+.vantages_section {
+    display: flex;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.vantages_section_title{
+    display: flex;
+    justify-content: center;
+}
+
+.vantages_section_list_item{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.vantages_section_list_item_content{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    /* max-width: 80%; */
+}
+
+.vantages_section_list_item_content > div{
+    border-radius: 100%;
+    background: #fff;
+    box-shadow: 3px 5px 16px -11px #00000042;
+}
