@@ -46,10 +46,10 @@ function Header() {
       <Grid container className={styles.header_video} pt={10}>
         <Grid item lg={12} md={12}>
           <Box className={styles.header_video_title}>
-            <Typography variant="span" className={styles.titleBlack} mr={1}>
+            <Typography variant="body1" className={styles.titleBlack} mr={1}>
               Assista o vídeo até o final e veja
             </Typography>
-            <Typography variant="span" className={styles.titleBlue}>
+            <Typography variant="body1" className={styles.titleBlue}>
               Como Funciona
             </Typography>
           </Box>
