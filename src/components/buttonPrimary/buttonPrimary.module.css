@@ -1,10 +1,9 @@
 .button{
   border-radius: 20px;
   background-color: #EABD4B;
-  -webkit-border-radius: 20;
-  -moz-border-radius: 20;
-  -ms-border-radius: 20;
-  -o-border-radius: 20;
+  padding: 10px;
+  font-weight: 700!important;
+  font-size: 20px;
 }
 
 .button:hover{
