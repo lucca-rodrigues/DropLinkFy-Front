@@ -3,11 +3,13 @@ import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 import styles from "./benefits.module.css";
 
-interface IBenefitsProps {
+interface IBenefitItem {
   id: number;
   description: string;
-  benefitsData: object[];
-  observationData: string;
+}
+interface IBenefitsProps {
+  benefitsData: Array<IBenefitItem>;
+  observationData?: string;
 }
 
 function Benefits({ benefitsData, observationData }: IBenefitsProps) {
