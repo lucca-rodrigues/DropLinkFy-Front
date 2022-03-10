@@ -1,5 +1,6 @@
 import { Grid, Typography, Box } from "@mui/material";
 import { ButtonPrimary } from "components/buttonPrimary";
+import { ButtonSecondary } from "components/buttonSecondary";
 import styles from "./headerPage.module.css";
 
 function Header() {
@@ -13,7 +14,7 @@ function Header() {
           <img src="../assets/logo.png" alt="logo dropfy" />
         </Grid>
         <Grid item lg={4} md={12}>
-          Teste
+          <ButtonSecondary title="Fazer Login" />
         </Grid>
       </Grid>
       <Grid container className={styles.header_content}>

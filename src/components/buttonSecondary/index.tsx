@@ -1,11 +1,21 @@
-import React from "react";
+import React, { ButtonHTMLAttributes } from "react";
 import { Button as MuiButton } from "@mui/material";
-import styles from "./button.module.css";
+import styles from "./buttonSecondary.module.css";
 
-function ButtonSecondary() {
+interface IButtonSecondaryProps
+  extends ButtonHTMLAttributes<HTMLButtonElement> {
+  title: string;
+  width?: number;
+}
+
+function ButtonSecondary({ title, width }: IButtonSecondaryProps) {
   return (
-    <MuiButton variant="contained" color="primary">
-      QUERO LUCRAR MAIS
+    <MuiButton
+      variant="contained"
+      className={styles.button}
+      style={{ width: width }}
+    >
+      {title}
     </MuiButton>
   );
 }
