@@ -24,7 +24,7 @@ function Benefits({ benefitsData, observationData }: IBenefitsProps) {
               <>
                 <FaCheckCircle
                   className={styles.section_benefits_list_item_icon}
-                  size={30}
+                  size={22}
                 />
                 <Typography
                   color="red"

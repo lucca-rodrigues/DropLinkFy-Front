@@ -12,7 +12,9 @@
 
 .section_benefits_list_item_icon{
   margin-right: 10px;
-  color:#5D92FF
+  color:#5D92FF;
+  height: 30px;
+  width: 50px;
 }
 
 .section_benefits_list_item_title{
