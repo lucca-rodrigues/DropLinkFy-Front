@@ -1,4 +1,4 @@
-import { ButtonPrimary } from "../buttonPrimary";
+import { ButtonPrimary } from "components/buttonPrimary";
 describe("<Button />", () => {
   it("should render without errors", () => {
     const defaultProps = {
